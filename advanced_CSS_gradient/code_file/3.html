@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .container{
+                display: flex;
+                flex-direction: column;
+                border:2px solid black;
+                border-radius: 10px;
+              margin-left: 35%;
+              margin-top: 15%;
+               width:300px;
+               padding: 50px;
+               font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+               background-image:linear-gradient(to top right,rgb(18, 125, 212),rgb(8, 0, 240)) ;
+               background: linear-gradient(
+          90deg,
+          rgba(69, 164, 221, 1) 11%,
+          rgba(51, 78, 194, 1) 100%,
+          rgba(233, 177, 140, 1) 100%
+        );
+        
+        
+        }
+        .sub-1{
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+
+        }
+        .container:hover{
+            transform: rotate(-45deg);
+            transition: all ease-in-out 2s;
+            
+            
+        }
+        button{
+                padding: 8px 30px;
+                border: 0;
+                border-radius: 7px;
+                color: black;
+                font-weight: 600;
+                background-color: #34eefc;
+
+        }
+        p{
+            color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="sub-1">
+            <h2>#01</h2>
+            <p> created On : 01/01/2023</p>
+        </div>
+        <div class="body">
+        <h1>Important dates</h1>
+        <ul>
+            <li>January 26 - Republic Day</li>
+            <li>August 15 -Independence Day</li>
+            <li>October 2 - Gandhi jayanthi</li>
+            <li>August 29 - National Sports Day</li>
+        </ul>
+        <button type="submit"> Mark As Done</button>
+    </div>
+</div>
+</body>
+</html>
